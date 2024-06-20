@@ -1,0 +1,73 @@
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #008080;
+  color: #C0C0C0;
+  user-select: none;
+}
+
+.main {
+  display: flex;
+  gap: 200PX;
+}
+
+.left h3 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+
+.images-image {
+  width: 300px;
+}
+
+.images-image:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.images-image:active {
+opacity: 0.8;
+transform: scale(1.02);
+
+}
+
+.upgrage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  height: 70px;
+  border: 4px solid #C0C0C0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.mid-section h4 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.mid-section p {
+  margin: 0;
+}
+
+.upgrage-img {
+  width: 40px;
+}
+
+.COOK-img {
+  width: 20px;
+  height: 20px;
+}
+
+.cost-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
